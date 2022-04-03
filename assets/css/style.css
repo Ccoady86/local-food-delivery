@@ -49,6 +49,32 @@
 }
 
 
+/* Services */
+
+#services {
+    margin: 35px;
+    display: flex;
+}
+
+#services .box {
+    border: 2px solid darkred;
+    padding: 35px;
+    margin: 75px;
+    border-radius: 25px;
+    background: whitesmoke;
+    margin-bottom: 20px;
+}
+
+#services .box img {
+    height: 150px;
+    margin: auto;
+    display: block;
+}
+
+#services .box p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 
 
 
