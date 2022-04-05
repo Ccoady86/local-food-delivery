@@ -128,6 +128,16 @@
     position: relative;
 }
 
+#local-suppliers::before {
+    content: "";
+    position: absolute;
+    background: url('../images/background2.jpg');
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.3;
+}
+
 #supplier {
     display: flex;
     justify-content: center;
